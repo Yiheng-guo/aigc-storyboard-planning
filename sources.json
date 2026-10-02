@@ -1,0 +1,24 @@
+[
+  {
+    "skill": "aigc-storyboard-planning",
+    "repo": "agentara/skills",
+    "commit": "950e1bfb11e1df67b46df19804ed85ada9012c33",
+    "license": "MIT",
+    "license_file": "third_party/agentara/LICENSE",
+    "path": "skills/aigc/video-storyboard/SKILL.md",
+    "snapshot": "third_party/agentara/skills/aigc/video-storyboard/SKILL.md",
+    "url": "https://github.com/agentara/skills/blob/950e1bfb11e1df67b46df19804ed85ada9012c33/skills/aigc/video-storyboard/SKILL.md",
+    "adaptation": "Workflow adaptation; rewritten Chinese instructions and original local tooling; original snapshot retained."
+  },
+  {
+    "skill": "aigc-storyboard-planning",
+    "repo": "agentara/skills",
+    "commit": "950e1bfb11e1df67b46df19804ed85ada9012c33",
+    "license": "MIT",
+    "license_file": "third_party/agentara/LICENSE",
+    "path": "skills/aigc/video-character-design/SKILL.md",
+    "snapshot": "third_party/agentara/skills/aigc/video-character-design/SKILL.md",
+    "url": "https://github.com/agentara/skills/blob/950e1bfb11e1df67b46df19804ed85ada9012c33/skills/aigc/video-character-design/SKILL.md",
+    "adaptation": "Workflow adaptation; rewritten Chinese instructions and original local tooling; original snapshot retained."
+  }
+]

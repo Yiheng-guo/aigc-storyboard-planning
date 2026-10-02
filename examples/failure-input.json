@@ -1,0 +1,54 @@
+{
+  "script_confirmed": true,
+  "target_seconds": 8,
+  "shots": [
+    {
+      "id": "SH01",
+      "scene_id": "library",
+      "duration_seconds": 4,
+      "character_ids": [
+        "lin"
+      ],
+      "action": "林捡起手机",
+      "dialogue": "",
+      "camera": "手部近景",
+      "reference_assets": [
+        "ref-lin-v1"
+      ],
+      "start_state": {
+        "phone.owner": "chair",
+        "phone.count": 1
+      },
+      "end_state": {
+        "phone.owner": "lin",
+        "phone.count": 1
+      },
+      "generation_prompt": "同一图书馆；只有一部手机，从椅面拿起；参考角色 lin-v1"
+    },
+    {
+      "id": "SH02",
+      "scene_id": "library",
+      "duration_seconds": 4,
+      "character_ids": [
+        "lin",
+        "staff"
+      ],
+      "action": "林递给管理员",
+      "dialogue": "林：请帮忙找失主。",
+      "camera": "双人中景",
+      "reference_assets": [
+        "ref-lin-v1",
+        "ref-staff-v1"
+      ],
+      "start_state": {
+        "phone.owner": "lin",
+        "phone.count": 2
+      },
+      "end_state": {
+        "phone.owner": "staff",
+        "phone.count": 1
+      },
+      "generation_prompt": "延续前镜一部手机；林从右侧递给左侧管理员；同服饰同光线"
+    }
+  ]
+}
